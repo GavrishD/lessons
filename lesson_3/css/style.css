@@ -1,0 +1,36 @@
+@import url("reset.css");
+
+span {
+    color: #EE3D48;
+}
+.header,
+.content__title {
+    color: #2300B0;
+}
+.content p {
+    color: #05250E;
+}
+.content__foreword > p {
+    color: #808285;
+} 
+.content__img {}
+.content__info {}
+.content__list {}
+
+#about_him {
+    color: #FF6A61;
+}
+#ferrari {
+    color: #E20338;
+}
+#crash {
+    color: #B40A1B;
+}
+
+.about__text {}
+.ferrari__text {}
+.crash__text {}
+
+[class*="__text"] {
+    color: #1771F1;
+}
