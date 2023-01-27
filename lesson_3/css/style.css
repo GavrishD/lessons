@@ -7,6 +7,9 @@ span {
 .content__title {
     color: #2300B0;
 }
+.main ~ p {
+    color: pink;
+}
 .content p {
     color: #05250E;
 }
@@ -14,7 +17,9 @@ span {
     color: #808285;
 } 
 .content__img {}
+
 .content__info {}
+
 .content__list {}
 
 #about_him {
@@ -29,8 +34,30 @@ span {
 
 .about__text {}
 .ferrari__text {}
+.ferrari__content{}
+
+.text.subtext{
+    color: cadetblue;
+}
 .crash__text {}
 
 [class*="__text"] {
     color: #1771F1;
 }
+
+div.text {
+    color: chocolate;
+}
+.subtext {
+    color: dimgray;
+}
+.sub-subtext * {
+    color: hotpink;
+}
+.footer .back{
+    color: aquamarine;
+}
+.footer + p {
+    color: brown;
+}
+
