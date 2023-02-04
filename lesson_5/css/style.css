@@ -34,10 +34,7 @@ body{
     font-size: 0;
 }
 
-.image {
-    width: 605px;
-    height: 400px;
-}
+.image {}
 
 img {
     overflow: clip;
