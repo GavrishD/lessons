@@ -17,89 +17,62 @@ body{
     margin: 0 auto;
 }
 
-[class*="__container"]{
-    max-width: 1270px;
-    margin: 0 auto;
-    padding: 0 15px;
+.content {
+    max-width: 816px;
+    margin: 80px auto;
+}
+.content p {
+    margin-top: 40px;
 }
 
-.text {
-    padding-left: 212px;
-    padding-top: 40px;
-    padding-right: 212px;
-}
-
-.images {
-    margin-top: 80px;
-    font-size: 0;
-}
-
-.image {}
-
-img {
-    overflow: clip;
-}
-
-h1, h2 {
+.title {
     font-weight: 700;
     font-size: 25px;
     line-height: 1.6; /* 40px */
     color: #212529;
+    margin: 40px 0;
 }
+
+.image {
+    margin: 0px auto;
+    max-width: 1240px;
+}
+
 /* ----------------------------------------Header---------------------------------------- */
 
-.header {
-    max-width: 816px;
-    margin: 0 auto;
-}
-
-.header__title {
-    display: inline-block;
-    padding-top: 15px;
-    max-width: 400px;
-}
+.header {}
 
 /* ----------------------------------------Main---------------------------------------- */
 
 .main {}
-.main__container {}
+.main__content {}
 
-.content-part01 {}
-
-.text-01 {}
-.text-02 {}
-.text-03 {}
-
-.image-one {
-    max-width: 100%;
-    margin-top: 80px;
+.content-part01 {
+    margin-bottom: 80px;
 }
 
+.title-one {
+    max-width: 400px;
+}
+
+.text {}
+.image-one {}
 .content-part02 {}
 
-.title{
+.title-two {
     max-width: 590px;
-    margin-left: 212px;
-    margin-top: 80px;
 }
-.text-04 {
+.image-two {
+    font-size:0
 }
-.text-05 {}
+.lake {
+    margin-right: 15px;
+}
+.picture {
+    margin-left: 15px;
+}
 
-.image-two {}
-.image-three {
-    padding-left: 30px;
-}
+.content-part03 {}
 
 /* ----------------------------------------Footer---------------------------------------- */
-
 .footer {}
-.footer__container {
-    margin-top: 80px;
-    margin-bottom: 60px;
-}
-.text-06 {}
-
-.text-07 {
-    display: none;
-}
