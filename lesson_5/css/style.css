@@ -34,6 +34,7 @@ body{
 .image {
     margin: 0px auto;
     max-width: 1240px;
+    font-size: 0;
 }
 
 /* ----------------------------------------Header---------------------------------------- */
@@ -63,6 +64,7 @@ body{
 .image-one img {
     width: 1240px;
     height: 400px;
+    font-size: 0;
 }
 .content-part02 {
     margin: 0px auto 0px auto;
@@ -76,17 +78,16 @@ body{
 }
 .image-two {
     width: 100%;
-    font-size: 0;
 }
 .image-two img {
     width: 605px;
     height: 400px;
+    font-size: 0;
 }
 .lake {
-    margin-right: 15px;
+    margin-right: 30px;
 }
 .picture {
-    margin-left: 15px;
 }
 
 .content-part03 {
@@ -96,5 +97,3 @@ body{
 
 /* ----------------------------------------Footer---------------------------------------- */
 .footer {}
-
-
