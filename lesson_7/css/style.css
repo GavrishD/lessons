@@ -11,23 +11,11 @@
 
 /* ----------------------------------------General---------------------------------------- */
 
-body {
-    /* font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    color: #6C757D; */
-}
+body {}
 
 [class*="__text"]{
     max-width: 816px;
 }
-/* [class*="__title"] {
-    color: #212529;
-    font-size: 25px;
-    line-height: 1.6;
-    font-weight: 700;
-    max-width: 605px;
-} */
 
 /* ----------------------------------------One Block---------------------------------------- */
 .one-block__container {
@@ -58,8 +46,8 @@ body {
     padding-top: 330px;
     padding-bottom: 100px;
 }
-.one-block__text {
-}
+.one-block__text {}
+
 .data {
     margin-bottom: 15px;
 }
@@ -72,7 +60,10 @@ body {
 ul {
     display: inline-block;
 }
-
+.two-block {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(190,181,218,0.6637392017353816) 53%, rgba(148,187,233,1) 100%);
+}
 .two-block h2 {
     font-weight: 400;
     font-size: 26px;
@@ -98,8 +89,8 @@ ul {
 
 /* -----------------------------------content-one----------------------------------- */
 
-.two-block__content-one {
-}
+.two-block__content-one {}
+
 .two-block__list-one li{
     margin-bottom: 18px;
 }
@@ -213,4 +204,3 @@ ul {
 .three-block__image {
     margin-left: 180px;
 }
-
