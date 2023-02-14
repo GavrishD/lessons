@@ -61,9 +61,10 @@ ul {
     display: inline-block;
 }
 .two-block {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(190,181,218,0.6637392017353816) 53%, rgba(148,187,233,1) 100%);
+    background: rgb(51,90,186);
+    background: linear-gradient(35deg, rgba(51,90,186,0.7897896219034488) 4%, rgba(137,85,193,0.739369453836222) 15%, rgba(217,81,199,0.5600977451527486) 25%, rgba(233,148,195,0.6609380812872023) 41%, rgba(136,208,233,0.7001537675617122) 58%, rgba(255,255,255,1) 84%);
 }
+
 .two-block h2 {
     font-weight: 400;
     font-size: 26px;
