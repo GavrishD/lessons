@@ -29,7 +29,7 @@ body {}
     font-size: 25px;
     line-height: 1.6; /* 40px */
     color: #F8F9FA;
-    width: 605px;
+    max-width: 605px;
     margin-bottom: 15px;
     transition: color 0.3s ease 0s;
 }
@@ -59,7 +59,7 @@ body {}
     text-decoration: underline;
 }
 .subtext {
-    width: 351px;
+    max-width: 351px;
 }
 
 /* ----------------------------------------Two Block---------------------------------------- */
@@ -125,10 +125,9 @@ ul {
 .second-list li::before {
     content: "";
     display: inline-block;
-    background: url('../img/two_block/02.svg') 0 0 no-repeat;
+    background: url('../img/two_block/02.svg') no-repeat;
     width: 20px;
-	height: 20px;
-	margin-left: -26px;
+	height: 20px; 
 	margin-right: 10px;
     transition: all 0.4s;
 }
@@ -137,10 +136,7 @@ ul {
 }
 .second-list li,
 .thirdly-list li {
-    margin-left: 120px;
-    padding-left: 30px;
-    min-height: 20px;
-    padding-top: 2px;
+    margin-left: 120px; 
 }
 
 .thirdly-list li::before {
@@ -149,7 +145,6 @@ ul {
     background: url('../img/two_block/03.svg') 0 0 no-repeat;
     width: 20px;
 	height: 20px;
-	margin-left: -26px;
 	margin-right: 10px;
     transition: all 0.4s;
 }
@@ -173,7 +168,6 @@ ul {
     background: url('../img/two_block/04.svg') 0 0 no-repeat;
     width: 20px;
 	height: 20px;
-	margin-left: -26px;
 	margin-right: 10px;
     transition: all 0.4s;
 }
@@ -181,9 +175,7 @@ ul {
 	transform: scale(0.5);
 }
 
-.else-first-list li,
 .else-second-list li {
-    padding-left: 30px;
     padding-top: 2px;
 }
 
@@ -193,7 +185,6 @@ ul {
     background: url('../img/two_block/05.svg') 0 0 no-repeat;
     width: 20px;
 	height: 20px;
-	margin-left: -26px;
 	margin-right: 10px;
     transition: all 0.4s;
 }
@@ -210,11 +201,8 @@ ul {
     content: "";
     display: inline-block;
     background: url('../img/two_block/06.svg') 0 0 no-repeat;
-    padding-left: 28px;
-    padding-top: 1px;
     width: 20px;
 	height: 20px;
-	margin-left: -26px;
 	margin-right: 10px;
     transition: all 0.4s;
 }
@@ -248,7 +236,7 @@ ul {
     font-size: 36px;
     line-height: 1.25; /* 45px */
     color: #212B36;
-    width: 470px;
+    max-width: 470px;
     margin-bottom: 15px;
 }
 
@@ -269,13 +257,14 @@ ul {
     font-weight: 500;
     line-height: 1.5; /* 24px */
     color: #637381;
-    width: 570px;
+    max-width: 570px;
     margin-bottom: 35px;
 }
 .button {
+    display: inline-block;
     padding: 10px 30px;
     gap: 10px;
-    width: 139px;
+    max-width: 139px;
     height: 44px;
     background: #3056D3;
     border-radius: 30px;
