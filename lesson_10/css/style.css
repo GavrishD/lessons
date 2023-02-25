@@ -1,0 +1,107 @@
+@import url("reset.css");
+
+/* ----------------------------------------Fonts---------------------------------------- */
+
+/* Poppins fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap');
+
+/* ----------------------------------------General---------------------------------------- */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
+    font-weight: 300;
+}
+
+[class*="__container"]{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wrapper {}
+
+/* ----------------------------------------Header---------------------------------------- */
+.header {}
+.header__container {}
+.header__logo {}
+.header__menu {}
+.menu {}
+.menu__list {}
+.menu__item {}
+.menu__link {}
+.header__social {}
+.social {}
+.social__list {}
+.social__item {}
+.social__link {}
+
+/* ----------------------------------------Page__main---------------------------------------- */
+.page {}
+.page__main {}
+.main-block {}
+.main-block__container {}
+.main-block__body {}
+.body-main-block {}
+.body-main-block__content {}
+.content-main-block {}
+.content-main-block__body {}
+.content-main-block__autor {}
+.content-main-block__title {}
+.content-main-block__slider {}
+.slider-main-block {}
+.swiper {}
+.slider-main-block__slider {}
+.swiper-slide {}
+
+
+/* ----------------------------------------Page__design---------------------------------------- */
+.page__design {}
+.design {}
+.design__container {}
+.design__header {}
+.header-design {}
+.header-design__title {}
+.title-left {}
+.header-design__sub-menu {}
+.sub-menu-design {}
+.sub-menu-design__list {}
+.sub-menu-design__item {}
+.sub-menu-design__link {}
+.design__category {}
+.design__items {}
+.design__item {}
+.item-design {}
+.item-design__data {}
+.item-design__title {}
+.title-description {}
+
+/* ----------------------------------------Page__trending---------------------------------------- */
+.page-trending {}
+.trending {}
+.trending__container {}
+.trending__header {}
+.header-trending {}
+.header-trending__title {}
+.trending__category {}
+.trending__items {}
+.trending__item {}
+.item-trending {}
+.item-trending__data {}
+.item-trending__title {}
+
+/* ----------------------------------------Footer---------------------------------------- */
+.footer {}
+.footer__container {}
+.footer__logo {}
+.footer__menu {}
+.menu-footer {}
+.menu-footer__list {}
+.menu-footer__item {}
+.menu-footer__link {}
+.footer__social {}
+.footer__info {}
+.info-footer {}
+.info-footer__adress {}
+.info-footer__copy {}
