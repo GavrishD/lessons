@@ -69,9 +69,7 @@ body {
 .roster__category-link:hover {
     text-decoration: underline;
 }
-.roster__categories {
-    padding-bottom: 70px;
-}
+.roster__categories {}
 
 .roster__sub-menu {}
 
@@ -111,6 +109,16 @@ body {
     left: 10px;
     background: url('../img/header/icons/polygon.svg') 0 0 / auto no-repeat;
     z-index: 1;
+}
+.roster__sub-menu::after,
+.products__sub-menu::after {
+    content: '';
+    position: absolute;
+    width: 116%;
+    height: 129%;
+    top: -20%;
+    left: -11%;
+    z-index: -1;
 }
 
 .sub-menu-roster__item {}
@@ -251,9 +259,8 @@ body {
     flex-wrap: wrap;
     column-gap: 35px;
 }
-.link-products {
-    padding-bottom: 70px;
-}
+.link-products {}
+
 .menu__item-products {
     position: relative;
 	display: inline-block;
