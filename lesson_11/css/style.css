@@ -371,15 +371,21 @@ body {
     line-height: 1.5; /* 24px */
 }
 
-.content-main-block__button {}
-.button {
+.content-main-block__button {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5; /* 24px */
     color: #212B36;
     padding: 12px 30px 12px 30px;
     border: 1px solid #212B36;
+    transition: all 0.3s ease 0s;
 }
+.content-main-block__button:hover {
+    background-color: #212B36;
+    color: #fff;
+}
+
+
 
 /* ----------------------------------------Page__collections---------------------------------------- */
 
