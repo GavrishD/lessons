@@ -80,6 +80,8 @@ img {
     vertical-align: top;
     margin-bottom: 30px;
     border-radius: 3px;
+    max-width: 393px;
+    max-height: 250px;
 }
 
 .main-block__galery {
