@@ -159,7 +159,6 @@ img {
     background-color: #212529;
     border-radius: 3px;
     cursor: pointer;
-    display: inline-block;
     transition: all 0.3s ease 0s;
 }
 .button-block__button:hover {
