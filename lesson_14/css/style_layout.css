@@ -78,7 +78,6 @@ body {
 /* ----------------------------------------Galery---------------------------------------- */
 img {
     vertical-align: top;
-    margin-bottom: 30px;
     border-radius: 3px;
     max-width: 393px;
     max-height: 250px;
@@ -106,6 +105,7 @@ img {
     display: block;
     position: relative;
     vertical-align: top;
+    padding-bottom: 30px;
 }
 
 .galery-block__link {}
