@@ -105,7 +105,7 @@ img {
     display: block;
     position: relative;
     vertical-align: top;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .galery-block__link {}
