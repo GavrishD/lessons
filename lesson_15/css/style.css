@@ -1,0 +1,216 @@
+@import url("reset.css");
+
+/* ----------------------------------------Fonts---------------------------------------- */
+
+/* Poppins fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap');
+
+/* ----------------------------------------General---------------------------------------- */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #9C9C9C;
+}
+
+[class*="__container"]{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.wrapper {
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4; /* 34px */
+    color: #333333;
+}
+
+.text {
+    line-height: 1.6; /* or 29px */
+}
+
+.title-achievement {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4; /* 34px */
+    color: #333333;
+}
+
+.page {}
+
+/* ----------------------------------------page__main---------------------------------------- */
+
+.page__main {
+    flex: 1 1 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.main-block {}
+.main-block__container {}
+.main-block__body {}
+.body-main {}
+.body-main__content {}
+
+.body-main__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.4; /* or 78px */
+    color: #000000;
+    text-align: center;
+}
+.body-main__text {
+    line-height: 1.6; /* or 29px */
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 53px;
+}
+.body-main__image {}
+
+/* ----------------------------------------page__design---------------------------------------- */
+
+.page__design {
+    padding-bottom: 100px;
+}
+.design-block__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.design-block__body {}
+
+.body-design__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 82px;
+}
+
+.body-design {}
+
+.body-design__project {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 48.66666%;
+}
+
+.project {}
+
+.project__title,
+.process__title {
+    margin-bottom: 24px;
+}
+.project__text {
+    margin-bottom: 60px;
+}
+.project__info {
+    display: flex;
+    column-gap: 80px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.project__data {}
+.project__themes {}
+
+.body-design__process {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 48.66666%;
+}
+
+.process {}
+.process__title {}
+
+.process__text-one {
+    margin-bottom: 30px;
+}
+
+.process__text-two {}
+.body-design__collection {}
+.collection-design {}
+
+.collection-design__items {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    margin: 0 -16px;
+}
+.collection-design__item {
+    flex: 0 1 50%;
+    padding: 0 16px;
+}
+.full-screen {
+    text-align: center;
+    flex-basis: 100%;
+}
+
+/* ----------------------------------------page__achievement---------------------------------------- */
+
+.page__achievement {
+    padding-bottom: 100px;
+}
+
+.achievement-block {}
+.achievement-block__container {}
+
+.achievement-block__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-achievement {}
+
+.body-achievement__subtitle {
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; /* 24px */
+    color: #000000;
+    margin-bottom: 40px;
+}
+.body-achievement__subtitle::after {
+    content: '';
+    background-color: #000;
+    height: 2px;
+    max-width: 464px;
+    flex-grow: 1;
+    animation: line 1.4s ease forwards;
+}
+
+.body-achievement__content {}
+
+.body-achievement__item {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 15px;
+    justify-content: space-between;
+}
+.body-achievement__item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.body-achievement__image {}
+
+.body-achievement__inform {
+    flex: 0 1 27.833333%;
+    align-self: center;
+}
+
+.title-achievement {}
+.body-achievement__text {}
+.text-achievement {}
