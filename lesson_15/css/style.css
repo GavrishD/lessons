@@ -148,7 +148,6 @@ img {
     flex-wrap: wrap;
     row-gap: 32px;
     margin: 0 -16px;
-    flex-basis: ;
 }
 .collection-design__item {
     flex: 0 0 50%;
