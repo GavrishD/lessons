@@ -367,15 +367,15 @@ body {
     margin-bottom: 55px;
 }
 
-.radio-block {}
+.radio-block-radio {}
 
-.radio-block__checkbox {
+.radio-block-radio__checkbox {
     position: relative;
 }
-.radio-block__checkbox:not(:last-child) {
+.radio-block-radio__checkbox:not(:last-child) {
     margin-bottom: 26px;
 }
-.radio-block__input-check {
+.radio-block-radio__input-check {
     position: absolute;
     top: 0;
     left: 0;
@@ -383,17 +383,17 @@ body {
     height: 0;
     opacity: 0;
 }
-.radio-block__label {
+.radio-block-radio__label {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
     gap: 14px;
 }
-.radio-block__input-check:checked +
-.radio-block__label::before {
+.radio-block-radio__input-check:checked +
+.radio-block-radio__label::before {
     background: url(../img/icon.svg) 50% 50% no-repeat;
 }
-.radio-block__label::before {
+.radio-block-radio__label::before {
     content: "";
     width: 22px;
     height: 22px;
