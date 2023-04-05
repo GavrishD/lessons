@@ -323,7 +323,7 @@ body{
 }
 .column__like {
 	transition: color ease-in-out 0.3s;
-	background: url(../img/page_one/topics/icons/) left no-repeat;
+	background: url(../img/page_one/topics/icons/like.svg) left no-repeat;
 	line-height: 1.66; /* 20/12 */
 	padding-left: 18px;
 }
