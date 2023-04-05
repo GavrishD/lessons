@@ -116,7 +116,7 @@ body{
 	line-height: 1.38;
 	font-size: 12px;
 }
-.header__button_active {
+.header__button-active {
 	border-radius: 20px;
 	background-color: #DDBEA9;
 	padding: 7px 16px 8px 15px;
@@ -481,7 +481,7 @@ body{
 		padding: 20px;
 		min-width: 140px;
 	}
-	.menu__item_arrow {
+	.menu__item-arrow {
 		padding-right: 13px;
 		background: url(../img/page_one/header/arrow.svg) 100% 50% no-repeat;
 		cursor: pointer;
@@ -606,7 +606,7 @@ body{
 	.header__btn-wrapper {
 		column-gap: 10px;
 	}
-	.header__button_active {
+	.header__button-active {
 		padding: 5px 10px 5px 10px;
 	}
 	.menu-open .menu__body{
@@ -646,7 +646,7 @@ body{
 	}
 }
 @media (any-hover: hover){
-	.menu__item_arrow:hover .sub-menu{
+	.menu__item-arrow:hover .sub-menu{
 		top: 100%;
 		opacity: 1;
 		visibility: visible;
@@ -655,7 +655,7 @@ body{
 	.menu__item:hover::before{
 	width: 100%;
 	}
-	.header__button_active:hover{
+	.header__button-active:hover{
 		background-color: #fcdec9;
 	}
 	.pages-topics__link:hover{
