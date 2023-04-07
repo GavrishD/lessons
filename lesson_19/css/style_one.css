@@ -295,10 +295,26 @@ img {
     .products-block__review  {
         font-size: 14px;
     }
+    .products-block__rating span {
+        width: 15px;
+        height: 15px;
+        background: url(../img/products/icons/star_small.svg) no-repeat;
+    }
+    .products-block__rating span:last-child {
+        margin-right: 5px;
+    }
 }
 @media (max-width: 720px) {
     .products-block__product {
         grid-template-columns: 1fr;
+    }
+    .products-block__rating span {
+        width: 17px;
+        height: 17px;
+        background: url(../img/products/icons/star.svg) no-repeat;
+    }
+    .products-block__rating span:last-child {
+        margin-right: 7px;
     }
 }
 @media (max-width: 500px) {
@@ -518,7 +534,5 @@ img {
 @media (max-width: 435px) {
     .trending-block__buttons {
         flex-direction: column;
-    }
-    
-    
+    }  
 }
