@@ -165,11 +165,19 @@ img {
     .title-collection:not(:last-child) {
         margin-bottom: 12px;
     }
+    .collection-block__title-min {
+        font-weight: 600;
+        font-size: 17px;
+    }
 }
 @media (max-width: 500px) {
     .collection-block__items {
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+    .collection-block__title-min {
+        font-weight: 600;
+        font-size: 20px;
     }
 }
 @media (max-width: 380px) {
@@ -745,6 +753,4 @@ img {
     .top-block__buttons {
         flex-direction: column;
     }
-    
-    
 }
